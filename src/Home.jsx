@@ -2,6 +2,13 @@ import React from 'react'
 import './Home.css'
 import main from "/mainimage.jpg"
 import image2 from "/f2f9c091af7bcaeb0760ec0028faf264-removebg-preview.png"
+import current from '/currentweather.png'
+import future from '/futureweather-removebg-preview (1).png'
+import past from '/past_weather-removebg-preview.png'
+import city from '/citypicker-removebg-preview.png'
+import crop from '/crop-removebg-preview.png'
+import advise from '/fertilizers-removebg-preview.png'
+import support from '/support-removebg-preview.png'
 
 function Home() {
   return (
@@ -26,37 +33,37 @@ function Home() {
     <div class='box6'>
         <div className="line1">
         <div class='box7'>
-            <img src={main} alt="" />
+            <img src={current} alt="" />
             <h1>Current Weather</h1>
         </div>
         <div class='box7'>
-            <img src={main} alt="" />
+            <img src={future} alt="" />
             <h1>Weather Predictor</h1>
         </div>
         </div>
         <div className="line2">
         <div class='box7'>
-            <img src={main} alt="" />
-            <h1>Date Wise Predictor</h1>
+            <img src={past} alt="" />
+            <h1>Past Weather</h1>
         </div>
         <div class='box7'>
-            <img src={main} alt="" />
+            <img src={city} alt="" />
             <h1>Pick your location</h1>
         </div>
         </div>
         <div className="line3">
         <div class='box7'>
-            <img src={main} alt="" />
+            <img src={crop} alt="" />
             <h1>Crop Predictor</h1>
         </div>
         <div class='box7'>
-           <img src={main} alt="" />
+           <img src={advise} alt="" />
            <h1>Crop Advisory</h1> 
         </div>
         </div>
         <div className="line4">
         <div class='box7'>
-           <img src={main} alt="" />
+           <img src={support} alt="" />
            <h1>Customer Support</h1> 
         </div>
         </div>
