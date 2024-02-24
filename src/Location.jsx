@@ -7,6 +7,12 @@ import rain from '/rainfall-removebg-preview.png'
 import pressure from '/pressure-removebg-preview.png'
 
 function Location() {
+
+    function city(){
+      event.preventDefault();
+      document.getElementsByClassName("maindiv2")[0].style.display="block";
+    }
+
   return (
     <>
 
@@ -15,12 +21,15 @@ function Location() {
     </div>
     <div className='form1'>
         <form action="">
-            <input type="text" placeholder='Enter City'/>
+            <input type="text" placeholder='Enter City' onSubmit={city}/>
         </form>
     </div>
     <div class="image5">
       <img src={sun} alt="" />
     </div>
+
+
+    <div className="maindiv2">
     <div>
       <h1 class="text4">30 C</h1>
       <h1 class="text5">Karvenagar</h1>
@@ -47,7 +56,10 @@ function Location() {
           </div>
           </div>
       </div>
-      
+      </div>
+    </div>
+
+    <div className="last1">
     </div>
     <div class='box12'>
       <h1>All Rights Reserved</h1>

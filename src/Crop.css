@@ -1,0 +1,105 @@
+body{
+    font-family: serif;
+}
+.box15{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(28, 133, 60);
+    padding-top: 15px;
+}
+.box15 h1{
+    color: white;
+    font-family: serif;
+    font-size: 21px;
+    text-align: center;
+}
+.box16{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(28, 133, 60);
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 15px;
+}
+.box16 h1{
+    font-size: 18px;
+    color: white;
+}
+.form2{
+    width: 60%;
+    height: 120px;
+    margin-left: 15%;
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    text-align: center;
+}
+.form2 h3{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.form2 input{
+    text-align: center;
+    height: 35px;
+    width: 250px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.form2 button{
+    text-align: center;
+    height: 35px;
+    width: 220px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.maindiv{
+    margin-top: 30px;
+}
+.maindiv1{
+    margin-top: 50px;
+}
+.maindiv h3{
+    padding-left: 20px;
+}
+.maindiv1 h3{
+    padding-left: 20px;
+}
+.div1{
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    /* border: 4px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.indiv{
+    width: 25%;
+}
+.indiv1{
+    width: 25%;
+}
+.div1 img{
+    width: 100%;
+    height: 94%;
+    border-radius: 10px;
+}
+.indiv p{
+    text-align: center;
+}
+.indiv1 p{
+    text-align: center;
+    margin-top: 5px;
+}
+.outdiv{
+    margin-top: -15px;
+}
+.mostimpdiv{
+    display: none;
+}
+.mostimpdiv1{
+    display: none;
+}
+.last{
+    width: 100%;
+    height: 800px;
+}
